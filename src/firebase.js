@@ -5,7 +5,7 @@ const config = {
   authDomain: "lunch-rush-react.firebaseapp.com",
   databaseURL: "https://lunch-rush-react.firebaseio.com",
   projectId: "lunch-rush-react",
-  storageBucket: "",
+  storageBucket: "lunch-rush-react.appspot.com",
   messagingSenderId: "681680049807"
 };
 
