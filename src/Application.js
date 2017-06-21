@@ -30,7 +30,7 @@ class Application extends Component {
   }
 
   render() {
-    const { currentUser }  = this.state;
+    const { currentUser, restaurants }  = this.state;
 
     return (
       <div className="Application">
@@ -43,6 +43,7 @@ class Application extends Component {
             currentUser && 
             <div>
               <NewRestaurant />
+              <Restaurants restaurants={restaurants} />
               <CurrentUser user={currentUser} />
             </div>
           }
